@@ -34,4 +34,9 @@ public class OddNumber {
 	}
 
 }
- 
+
+/*System.out.printf("출력 서식",출력할 내용);
+	%c | 문자형식
+	%d | 정수형식 
+	%n | 줄바꿈 
+*/
