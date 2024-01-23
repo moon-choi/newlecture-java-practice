@@ -5,7 +5,7 @@ public class OddNumber {
 	public static void main(String[] args) {
 		
 		for(int i = 0; i < 5; i++) {
-			if(i == 4) { 	//범위가 넓을수록 가장 맨위의 if 문에 배치하고 밑으로 갈수록 촘촘하게.
+			if(i == 4) { 	//범위가 넓을수록 if 문 가장 맨 아래에 배치하고 위에는 더 촘촘한 특수한 케이스 배치.
 				System.out.printf("%c", 'A' + i); //예외항목은 if문 안에.
 			} else {
 				if (i % 2 != 0) {
